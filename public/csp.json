@@ -1,0 +1,33 @@
+{
+  "csp": {
+    "default-src": "'self'",
+    "script-src": [
+      "'self'",
+      "'unsafe-inline'",
+      "'unsafe-hashes'",
+      "https://cdn.tailwindcss.com"
+    ],
+    "style-src": [
+      "'self'",
+      "'unsafe-inline'",
+      "https://cdn.tailwindcss.com"
+    ],
+    "img-src": [
+      "'self'",
+      "data:"
+    ],
+    "connect-src": [
+      "'self'",
+      "http://127.0.0.1:8000"
+    ],
+    "font-src": [
+      "'self'",
+      "data:"
+    ],
+    "object-src": "'none'",
+    "base-uri": "'self'",
+    "form-action": "'self'",
+    "frame-ancestors": "'none'",
+    "report-uri": "/csp-report"
+  }
+}

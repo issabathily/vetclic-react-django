@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>VetCare Management System</title>
+  </head>
+  <body class="bg-black text-white">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      // Configuration de Tailwind
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              black: {
+                50: '#f7fafc',
+                100: '#edf2f7',
+                200: '#e2e8f0',
+                300: '#cbd5e0',
+                400: '#a0aec0',
+                500: '#718096',
+                600: '#4a5568',
+                700: '#2d3748',
+                800: '#1a202c',
+                900: '#171923'
+              },
+              white: {
+                DEFAULT: '#ffffff'
+              },
+              teal: {
+                500: '#2dd4bf',
+                600: '#14b8a6',
+                700: '#0d9488',
+              },
+            },
+          },
+        },
+      }
+    </script>
+  </body>
+</html>
